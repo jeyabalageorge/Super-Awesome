@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteTwo]">
+  <listeners>
+    <listener class-name="com.stta.utility.ScreenshotUtility"/>
+  </listeners>
+  <test name="SuiteTwoCaseOne(failed)">
+    <classes>
+      <class name="com.stta.SuiteTwo.SuiteTwoCaseOne">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="checkCaseToRun"/>
+          <include name="SuiteTwoCaseOneTest"/>
+        </methods>
+      </class> <!-- com.stta.SuiteTwo.SuiteTwoCaseOne -->
+      <class name="com.stta.SuiteTwo.SuiteTwoCaseTwo">
+        <methods>
+          <include name="checkCaseToRun"/>
+        </methods>
+      </class> <!-- com.stta.SuiteTwo.SuiteTwoCaseTwo -->
+      <class name="com.stta.SuiteTwo.SAmlpLogin">
+        <methods>
+          <include name="checkSuiteToRun"/>
+          <include name="checkCaseToRun"/>
+        </methods>
+      </class> <!-- com.stta.SuiteTwo.SAmlpLogin -->
+    </classes>
+  </test> <!-- SuiteTwoCaseOne(failed) -->
+  <test name="SuiteTwoCaseTwo(failed)">
+    <classes>
+      <class name="com.stta.SuiteTwo.SuiteTwoCaseOne">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="checkCaseToRun"/>
+        </methods>
+      </class> <!-- com.stta.SuiteTwo.SuiteTwoCaseOne -->
+      <class name="com.stta.SuiteTwo.SuiteTwoCaseTwo">
+        <methods>
+          <include name="SuiteTwoCaseTwoTest"/>
+          <include name="checkCaseToRun"/>
+        </methods>
+      </class> <!-- com.stta.SuiteTwo.SuiteTwoCaseTwo -->
+      <class name="com.stta.SuiteTwo.SAmlpLogin">
+        <methods>
+          <include name="checkSuiteToRun"/>
+          <include name="checkCaseToRun"/>
+        </methods>
+      </class> <!-- com.stta.SuiteTwo.SAmlpLogin -->
+    </classes>
+  </test> <!-- SuiteTwoCaseTwo(failed) -->
+  <test name="SAmlpLogin(failed)">
+    <classes>
+      <class name="com.stta.SuiteTwo.SuiteTwoCaseOne">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="checkCaseToRun"/>
+        </methods>
+      </class> <!-- com.stta.SuiteTwo.SuiteTwoCaseOne -->
+      <class name="com.stta.SuiteTwo.SuiteTwoCaseTwo">
+        <methods>
+          <include name="checkCaseToRun"/>
+        </methods>
+      </class> <!-- com.stta.SuiteTwo.SuiteTwoCaseTwo -->
+      <class name="com.stta.SuiteTwo.SAmlpLogin">
+        <methods>
+          <include name="checkSuiteToRun"/>
+          <include name="SuiteTwoCaseOneTest"/>
+          <include name="checkCaseToRun"/>
+        </methods>
+      </class> <!-- com.stta.SuiteTwo.SAmlpLogin -->
+    </classes>
+  </test> <!-- SAmlpLogin(failed) -->
+</suite> <!-- Failed suite [SuiteTwo] -->
