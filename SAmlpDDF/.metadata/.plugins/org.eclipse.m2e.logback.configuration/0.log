@@ -1,3 +1,0 @@
-2015-11-05 11:53:50,257 [main] WARN  o.e.r.i.c.rcp.TypeBindingAnalyzer - Can't handle class org.eclipse.jdt.internal.compiler.ast.CombinedBinaryExpression as parent of completion location.
-2015-11-05 11:54:21,952 [main] WARN  o.e.r.i.c.rcp.TypeBindingAnalyzer - Can't handle class org.eclipse.jdt.internal.compiler.ast.CombinedBinaryExpression as parent of completion location.
-2015-11-05 12:27:55,409 [main] WARN  o.e.r.i.c.rcp.TypeBindingAnalyzer - Can't handle class org.eclipse.jdt.internal.compiler.ast.CombinedBinaryExpression as parent of completion location.
